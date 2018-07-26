@@ -34,10 +34,10 @@ extension Suit: Comparable {
 extension Suit : CustomStringConvertible {
     public var description: String {
         switch self {
-        case .spades: return "♠︎"
+        case .spades: return "♠"
         case .hearts: return "♡"
         case .diamonds: return "♢"
-        case .clubs: return "♣︎"
+        case .clubs: return "♣"
         }
     }
 }
